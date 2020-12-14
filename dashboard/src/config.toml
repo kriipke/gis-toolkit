@@ -1,0 +1,44 @@
+baseURL = "https://example.com/"
+languageCode = "en-US"
+title = "carocloud"
+theme = "bootstrap-bp-hugo-startpage"
+# googleAnalytics = "UA-123-45"
+copyright = "Sebastian Pech"
+enableRobotsTXT = true
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[Author]
+  name = "Sebastian Pech"
+
+[params]
+  description = "Text about the site"
+  #images = ["logo.jpg"]
+  # startPageColumns = false
+  welcomeText = ""
+
+[[params.searchEngines]]
+  name = "Google"
+  activated = false
+  url = "https://www.google.com/search"
+
+[[params.searchEngines]]
+  name = "DuckDuckGo"
+  activated = false
+  url = "https://duckduckgo.com/"
+
+[[params.searchEngines]]
+  name = "Bing"
+  activated = false
+  url = "https://www.bing.com/search"

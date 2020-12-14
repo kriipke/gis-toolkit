@@ -1,0 +1,12 @@
+---
+- group: Applications
+  items:
+    - title: Notebook
+      url: http://lab.carocloud.com/notebook
+      icon: nf nf-mdi-language_python
+    - title: Python Documentation
+      url: https://docs.python.org/3/
+      icon: nf nf-fa-book
+    - title: R Documentation
+      url: https://rdocumentation.org 
+      icon: nf nf-fa-book
